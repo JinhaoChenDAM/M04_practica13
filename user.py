@@ -3,9 +3,9 @@ class user:
     def __init__ (self, nom, edat, altura, pes, nacionalitat, genere):
         self.nom = nom
         self.edat = edat
-        self.any = altura
-        self.tapa = pes
-        self.idioma = nacionalitat
+        self.altura = altura
+        self.pes = pes
+        self.nacionalitat = nacionalitat
         self.genere = genere
 
     # Afegim els Getters/Setters
@@ -47,6 +47,6 @@ class user:
 
     # Creem una funció que imprimeix els atributs de l'objecte per pantalla
     def salutacio(self):
-        print("Em dic {nom} tinc {edat} medeixo {altura} cm, peso {pes},"
+        print("Em dic {nom} tinc {edat} medeixo {altura} cm, peso {pes}"
               " sóc {nacionalitat} i el meu gènere és {genere}".format(nom=self.nom, edat=self.edat,
-                altura=self.altura,pes=self.pes,nacionalitat=self.nacionalitat,genere=self.genere))
+                altura=self.altura, pes=self.pes, nacionalitat=self.nacionalitat, genere=self.genere))
