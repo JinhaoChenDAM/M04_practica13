@@ -1,6 +1,9 @@
 from animal import animal
 from vehicle import vehicle
 from school import school
+from book import book
+from user import user
+from university import university
 
 # Crear 2 instancias de animal
 a1 = animal("perro", "blanco", 4, 2, 50, 10)
@@ -31,3 +34,24 @@ e1.info()
 e2.setNProfes("60")
 # imprimir numero de profes de e2
 print(e2.getNProfes())
+
+# Cridem a la nostra funció sobre la informació del llibre i canviem un atribut
+b1 = book("Flors per a l'Àlgernon", "Daniel keyes", 1959, "blanda", "Català", "Ciència Ficció")
+b2 = book("Arsène Lupin","Maurice LeBlanc","1874","dura","Francés","Ciència Ficció")
+b1.info()
+b1.setTapa("Dura")
+b1.getTapa()
+
+# Cridem a la nostra funció sobre la informació de l'usuari i canviem un atribut
+p1 = user("Guillermo", "18", 172, 63, "español", "masculí")
+p2 = user("Jinhao", 26, 165, 56, "xinés", "masculí")
+p1.salutacio()
+p1.setEdat(19)
+p1.getEdat()
+
+# Cridem a la nostra funció sobre la informació de l'universitat i canviem un atribut
+u1 = university("UPC", 789, 38, 2000, 11.7, 45)
+u2 = university("UAB", 982, 42, 2300, 9.7, 56)
+u1.info()
+u1.setNotaTall(10.25)
+u1.getNotaTall()
