@@ -2,7 +2,7 @@ class user:
     # Creem el constructor amb els seus atributs
     def __init__ (self, nom, edat, altura, pes, nacionalitat, genere):
         self.nom = nom
-        self.autor = edat
+        self.edat = edat
         self.any = altura
         self.tapa = pes
         self.idioma = nacionalitat
