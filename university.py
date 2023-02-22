@@ -1,12 +1,12 @@
 class university:
     # Creem el constructor amb els seus atributs
-    def __ini__(self, nom, numAlumnes, numClasses, m2, notaTall, numProfes):
+    def __init__(self, nom, numAlumnes, numClasses, m2, notaTall, numProfes):
         self.nom = nom
-        self.autor = numAlumnes
-        self.any = numClasses
-        self.tapa = m2
-        self.idioma = notaTall
-        self.genere = numProfes
+        self.numAlumnes = numAlumnes
+        self.numClasses = numClasses
+        self.m2 = m2
+        self.notaTall = notaTall
+        self.numProfes = numProfes
 
     # Afegim els Getters/Setters
     def getNom(self):
