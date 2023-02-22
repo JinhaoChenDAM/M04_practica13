@@ -1,6 +1,6 @@
 class book:
     # Creem el constructor amb els seus atributs
-    def __ini__ (self, nom, autor, any, tapa, idioma, genere):
+    def __init__ (self, nom, autor, any, tapa, idioma, genere):
         self.nom = nom
         self.autor = autor
         self.any = any

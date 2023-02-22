@@ -1,6 +1,6 @@
 class university:
     # Creem el constructor amb els seus atributs
-    def __ini__(self, nom, numAlumnes, numClasses, m2, notaTall, numProfes):
+    def __init__(self, nom, numAlumnes, numClasses, m2, notaTall, numProfes):
         self.nom = nom
         self.autor = numAlumnes
         self.any = numClasses
